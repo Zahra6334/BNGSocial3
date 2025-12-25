@@ -1,0 +1,95 @@
+/* Genel Arka Plan */
+.main-container {
+    -fx-background-color: #FAFAFA; /* Instagram Kırık Beyazı */
+}
+
+/* Sol Menü */
+.sidebar {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: transparent #DBDBDB transparent transparent; /* Sağda ince çizgi */
+    -fx-border-width: 1;
+}
+
+/* Logo */
+.logo-text {
+    -fx-font-family: 'Segoe UI', sans-serif; /* Instagram Fontuna yakın */
+    -fx-font-weight: bold;
+    -fx-font-size: 26px;
+    -fx-text-fill: #262626;
+}
+
+/* Menü Butonları */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #262626;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 12 15;
+    -fx-cursor: hand;
+    -fx-background-radius: 8;
+}
+
+.menu-button:hover {
+    -fx-background-color: #FAFAFA; /* Üstüne gelince hafif gri */
+}
+
+/* Aktif (Mavi) Buton */
+.active-button {
+    -fx-font-weight: bold;
+}
+
+/* Input Alanları */
+.insta-input {
+    -fx-background-color: #FAFAFA;
+    -fx-border-color: #DBDBDB;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-padding: 8;
+    -fx-text-fill: #262626;
+}
+
+.insta-input:focused {
+    -fx-border-color: #A8A8A8;
+}
+
+.input-label {
+    -fx-text-fill: #8E8E8E;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* Başlıklar */
+.section-title {
+    -fx-text-fill: #8E8E8E;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 0 0 5 0;
+}
+
+/* Sonuç Ekranı (TextArea) */
+.feed-area {
+    -fx-control-inner-background: #FFFFFF;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #DBDBDB;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-size: 13px;
+    -fx-text-fill: #262626;
+    -fx-padding: 5;
+    /* Gölge Efekti */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 10, 0, 0, 2);
+}
+
+/* Scroll Bar Gizleme/İnceltme (Opsiyonel) */
+.feed-area .scroll-bar:vertical,
+.feed-area .scroll-bar:vertical .track,
+.feed-area .scroll-bar:vertical .thumb {
+    -fx-background-color: transparent;
+}
+
+.footer-text {
+    -fx-text-fill: #C7C7C7;
+    -fx-font-size: 10px;
+    -fx-alignment: CENTER;
+}
