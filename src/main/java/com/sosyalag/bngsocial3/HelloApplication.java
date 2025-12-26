@@ -47,7 +47,7 @@ public class HelloApplication extends Application {
             System.out.println("⚠️ UYARI: style.css bulunamadı, tasarımsız devam ediliyor.");
         }
 
-        stage.setTitle("BingölGram - Sosyal Ağ Analizi");
+        stage.setTitle("BNGSocial - Sosyal Ağ Analizi");
         stage.setScene(scene);
         stage.show();
     }
